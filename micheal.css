@@ -1,0 +1,358 @@
+body{
+  background-color: black;
+}
+.explain{
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 40px;
+  align-items: center;
+  margin-left: 400px;
+  max-width: 600px;
+  height: 320px;
+  padding: 20px 50px;
+  text-align: justify;
+  font-size: 20px;
+  background-color: azure;
+  border-radius: 6px;
+  
+}
+h2{
+  font-size: 25px;
+  color: black;
+}
+
+  
+
+ article {
+  margin: 90px auto;
+  padding: 2em 1em;
+  max-width: 800px;
+  height: 900px;
+  font-size: 35px;
+  line-height: 22px;
+  text-align: justify;
+  overflow-x: hidden;
+  color: black;
+  background-color: azure;
+
+}
+
+h1 {
+  margin: 0;
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  text-align: center;
+  padding: 0.2em 0 0.6em 0.3em;
+}
+
+.shake-vertical {
+  animation: shake-vertical 100ms ease-in-out infinite;
+}
+
+@keyframes shake-vertical {
+  2% {
+    transform: translate(0, 6px) rotate(0);
+  }
+  4% {
+    transform: translate(0, -1px) rotate(0);
+  }
+  6% {
+    transform: translate(0, -7px) rotate(0);
+  }
+  8% {
+    transform: translate(0, -1px) rotate(0);
+  }
+  10% {
+    transform: translate(0, 9px) rotate(0);
+  }
+  12% {
+    transform: translate(0, 1px) rotate(0);
+  }
+  14% {
+    transform: translate(0, 3px) rotate(0);
+  }
+  16% {
+    transform: translate(0, 6px) rotate(0);
+  }
+  18% {
+    transform: translate(0, 9px) rotate(0);
+  }
+  20% {
+    transform: translate(0, 2px) rotate(0);
+  }
+  22% {
+    transform: translate(0, 1px) rotate(0);
+  }
+  24% {
+    transform: translate(0, 3px) rotate(0);
+  }
+  26% {
+    transform: translate(5, 4px) rotate(0);
+  }
+  28% {
+    transform: translate(0, 0px) rotate(0);
+  }
+  30% {
+    transform: translate(0, -8px) rotate(0);
+  }
+  32% {
+    transform: translate(0, 6px) rotate(0);
+  }
+  34% {
+    transform: translate(0, 6px) rotate(0);
+  }
+  36% {
+    transform: translate(0, -4px) rotate(0);
+  }
+  38% {
+    transform: translate(0, 2px) rotate(0);
+  }
+  40% {
+    transform: translate(0, -8px) rotate(0);
+  }
+  42% {
+    transform: translate(0, -9px) rotate(0);
+  }
+  44% {
+    transform: translate(0, -3px) rotate(0);
+  }
+  46% {
+    transform: translate(0, 0px) rotate(0);
+  }
+  48% {
+    transform: translate(0, -7px) rotate(0);
+  }
+  50% {
+    transform: translate(0, 0px) rotate(0);
+  }
+  52% {
+    transform: translate(0, 3px) rotate(0);
+  }
+  54% {
+    transform: translate(0, -4px) rotate(0);
+  }
+  56% {
+    transform: translate(0, 3px) rotate(0);
+  }
+  58% {
+    transform: translate(0, -9px) rotate(0);
+  }
+  60% {
+    transform: translate(0, 9px) rotate(0);
+  }
+  62% {
+    transform: translate(0, -6px) rotate(0);
+  }
+  64% {
+    transform: translate(0, 0px) rotate(0);
+  }
+  66% {
+    transform: translate(0, -4px) rotate(0);
+  }
+  68% {
+    transform: translate(0, 1px) rotate(0);
+  }
+  70% {
+    transform: translate(0, 5px) rotate(0);
+  }
+  72% {
+    transform: translate(0, 0px) rotate(0);
+  }
+  74% {
+    transform: translate(0, -6px) rotate(0);
+  }
+  76% {
+    transform: translate(0, -3px) rotate(0);
+  }
+  78% {
+    transform: translate(0, 3px) rotate(0);
+  }
+  80% {
+    transform: translate(0, 6px) rotate(0);
+  }
+  82% {
+    transform: translate(0, 2px) rotate(0);
+  }
+  84% {
+    transform: translate(0, -3px) rotate(0);
+  }
+  86% {
+    transform: translate(0, 1px) rotate(0);
+  }
+  88% {
+    transform: translate(0, 1px) rotate(0);
+  }
+  90% {
+    transform: translate(0, 10px) rotate(0);
+  }
+  92% {
+    transform: translate(0, -2px) rotate(0);
+  }
+  94% {
+    transform: translate(0, -2px) rotate(0);
+  }
+  96% {
+    transform: translate(0, -6px) rotate(0);
+  }
+  98% {
+    transform: translate(0, -9px) rotate(0);
+  }
+  0%,
+  100% {
+    transform: translate(0, 0) rotate(0);
+  }
+}
+
+block {
+  margin: 70px auto;
+  padding: 2em 1em;
+  max-width: 600px;
+  font-size: 19px;
+  line-height: 22px;
+  text-align: justify;
+  overflow-x: hidden;
+  color: black;
+  background-color: azure
+}
+.effect{
+  align-items: center;
+  margin: 70px 400px;
+  padding: 2em 1em;
+	position: relative;
+  background-color: azure;
+  border-radius: 4px;
+  -moz-transform:translateY(50%);
+ -webkit-transform:translateY(50%);	
+ transform:translateY(50%);
+ -moz-animation: vertically 5s linear infinite alternate;
+ -webkit-animation: vertically 5s linear infinite alternate;
+ animation: vertically 5s linear infinite alternate;
+
+	color: black;
+  cursor: pointer;
+}
+.effect:hover {
+	color: rgba(255, 255, 255, 0);
+	text-shadow: 0px 0px 4px grey;
+  font-size: 40px;
+}
+html,
+body {
+margin: 0;
+width: 100%;
+height: 100%;
+}
+
+.center-outer {
+display: table;
+width: 60%;
+height: 50%;
+ padding:2px;
+ background-color: beige;
+ border-radius: 4px;
+ align-items: center;
+ margin-left: 20%;
+ font-size: 25px;
+}
+
+.center-inner {
+  margin-top: 90px;
+display: table-cell;
+
+
+text-align: left;
+}
+
+body {
+align-items: flex-end;
+font-family: Arial, Helvetica, sans-serif;
+color: black;
+font-size: 25px;
+
+}
+
+.shake {
+display: inline-block;
+position: relative;
+padding: 0 1px;
+}
+
+.shake::after {
+content: attr(data-shaking-text);
+position: absolute;
+left: 1px;
+top: 0;
+-webkit-animation: vibrateAnim 0.5s linear infinite;
+animation: vibrateAnim 0.8s linear infinite;
+ -webkit-animation: vibrateAnim 0.5s horizontal infinite;
+ animation: vibrateAnim 0.8s horizontal infinite;
+}
+
+@-webkit-keyframes vibrateAnim {
+0% {left: 1px;}
+25% {left: 0;}
+50% {left: 1px;}
+75% {left: 0;}
+100% {left: 9px;}
+}
+
+@keyframes vibrateAnim {
+0% {left: 1px;}
+25% {left: 0;}
+50% {left: 0px;}
+75% {left: 0;}
+100% {left: 3px;}
+0% {top: 4px;}
+25% {top: 7px;}
+50% {top: 9px;}
+75% {top: 0;}
+100% {top: 2px;}
+0% {bottom: 7px;}
+25% {bottom: 9px;}
+50% {bottom: 11px;}
+75% {bottom: 13;}
+100% {bottom: 15px;}
+}
+
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+.container {
+	margin: 3rem auto;
+	max-width: 40rem;
+	padding: 1rem;
+}
+
+.container > * {
+	font-size: 1.5rem;
+	font-weight: 300;
+	margin: 0;
+	padding: 0.5rem;
+	width: 100%;
+}
+
+.title {
+  color: aliceblue;
+	
+}
+
+.rotated {
+	text-align: right;
+	transform: rotateY(180deg);
+}
+
+.footer-pager{
+  height: 80px; 
+    position: relative; 
+    margin-top: 25%; 
+    background-color: #393838; 
+    opacity:;
+    color: aliceblue;
+    text-align: justify;
+    
+}

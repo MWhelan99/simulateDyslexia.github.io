@@ -1,0 +1,84 @@
+
+
+body {
+
+  background: #141414;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.matha_hw{
+
+	margin: 40px;
+	padding: 80px;
+	text-align: justify;
+	font-size: 28px;
+	color: #141414;
+}
+
+
+.img_draw{
+	max-width: 90%;
+	max-height: 60%;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	align-items: center;
+}
+.contain{
+	margin: 40px;
+	background-color:rgb(255, 236, 149);
+	border-radius: 6px;
+	
+
+}
+main {
+	padding: 1.6rem;
+	font-family: 'Butterfly Kids', cursive;
+
+  }
+  
+  h1 {
+	font-size: 2.4rem;
+	color: rgb(66, 15, 66);
+  }
+ .spelling{
+	 font-size: 45px;
+	 font-weight: 400;
+	 padding: 20px;
+	 
+ }
+  
+  
+ .spelling_explain{
+	 background-color: rgb(255, 255, 181);
+	 border-radius: 4px;
+	 align-items: center;
+	 margin-left: 5px;
+	 
+ } 
+  
+
+ .rules{
+	 margin-left: 25px;
+	 font-weight: 550;
+	 padding: 10px;
+	 font-size: 37px;
+ }
+
+ .rules2{
+	 font-weight: 400;
+	 margin-left: 25px;
+	 padding: 10px;
+ }
+
+
+ .footer-pager{
+	height: 80px; 
+	  position: relative; 
+	  margin-top: 25%; 
+	  background-color: #393838; 
+	  opacity:;
+	  color: aliceblue;
+	  text-align: justify;
+	  
+  }
